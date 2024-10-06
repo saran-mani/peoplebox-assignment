@@ -1,5 +1,5 @@
 # Job Recommendation System
-## Recommended Jobs API: `POST http://localhost:3000/api/v1/job/recommend`
+## Recommended Jobs LIVE API URL FOR TEST: `POST https://peopelbox-jobrecommend.up.railway.app//api/v1/job/recommend`
 
 ## Overview
 The Job Recommendation System is a web application that helps users find job postings based on their skills, experience level, and preferences. The application allows users to create profiles, save job postings, and receive job recommendations tailored to their qualifications.
@@ -26,8 +26,8 @@ The Job Recommendation System is a web application that helps users find job pos
 ### Steps
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/job-recommendation-system.git
-   cd job-recommendation-system
+   git clone https://github.com/saran-mani/peoplebox-assignment.git
+   cd peoplebox-assignment
    ```
 
 2. **Install dependencies**:
