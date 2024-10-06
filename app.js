@@ -8,9 +8,9 @@ const Job = require("./src/models/Job");
 
 const app = express();
 app.use(bodyParser.json());
-let DB = process.env.NODE_ENV == "production"? process.env.MONGDB_URI : "mongodb://localhost:27017/peopleboxJob"
+let DB = process.env.NODE_ENV == "production"? process.env.MONGODB_URI : "mongodb://localhost:27017/peopleboxJob"
 mongoose
-  .connect("mongodb+srv://saranDB:saranDB@serverlessinstance0.ca1kky4.mongodb.net/peopleboxJob")
+  .connect(DB)
   .then(() => {
     console.log("Connected to MongoDB");
   })
